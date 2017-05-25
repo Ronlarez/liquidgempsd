@@ -7,6 +7,7 @@ nav{
 nav ul li{
   display: inline-block;
   float: right;
+  color: blue;
   font-size: 1em;
   font-weight:normal;
   text-align: center;
@@ -19,6 +20,7 @@ a1 {
   float: left;
   margin-top: 25px;
   padding-left: 250px;
+  color: blue;
   font-family: cursive;
   font-weight: bold;
   font-size: 2em;
@@ -32,15 +34,38 @@ h1{
 
 }
 span{
-  color: pink;
+  color: blue;
   font-size: 1em;
 }
 
-.container{
-  background-color: yellow;
-  width: 80%;
-  height: 100px;
-position: absolute;
-top: 300px;
-left: 120px;
+.box img{
+  position: absolute;
+ width: 80%;
+  height: 200px;
+ top: 300px;
+ left: 120px;
+}
+
+h2{
+  position: absolute;
+  top: 550px;
+  left: 400px;
+  color: blue;
+  font-style: italic;
+}
+
+h3{
+ position: absolute;
+  right: 400px;
+  top: 550px;
+  color: blue;
+  font-style: italic;
+}
+
+/* paragraph css */
+p{
+  position: absolute;
+  top: 620px;
+  left: 230px;
+  text-align: center;
 }
